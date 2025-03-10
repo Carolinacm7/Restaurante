@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Delights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <img src="resources/imagen/logo.png" alt="My Delights - Restaurante">
+      
+
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+              <h1>Menu</h1>
+                <li><a href="#" onclick="showSection('menu-carta')">Platos a la Carta</a></li>
+                <li><a href="#" onclick="showSection('menu-corriente')">Comida Corriente</a></li>
+                <li><a href="#" onclick="showSection('menu-servicios')">Servicios Adicionales</a></li>
+                <li><a href="#" onclick="showSection('menu-adiciones')">Adiciones</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="menu-carta" class="menu-section">
+                <h2>Platos a la Carta</h2>
+                <div class="dish">
+                    <img src="/resources/imagen/churrasco.avif" alt="Plato 1">
+                    <div>
+                        <p><strong>Plato 1</strong></p>
+                        <p>Ingredientes principales:500gr de churrasco dos adiciones y ensalada </p>
+                        <p>Precio: $60.000</p>
+                    </div>
+                    <img src="/resources/imagen/costillas.webp" alt="Plato 2">
+                    <div>
+                      
+                      <p><strong>Plato 2</strong></p>
+                      <p>Ingredientes principales:500gr de Costillas de cerdo dos adiciones y ensalada </p>
+                      <p>Precio: $60.000</p>
+                  </div>
+                </div>
+            </div>
+            <div id="menu-corriente" class="menu-section">
+                <h2>Comida Corriente</h2>
+                <div class="dish">
+                    <img src="/resources/imagen/almuerzo_corriente.jpg" alt="Comida Corriente">
+                    <div>
+                        <p><strong>Sopa del Día</strong></p>
+                        <p>Principios: Frijol,Lentejas o Pasta(solo uno si se selecciona mas se cobra adicional)</p>
+                        <p>Carnes: Carne asada,pollo en salsa,lomo de cerdo</p>
+                        <p>Precio: $15.000</p>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-adiciones" class="menu-section">
+                <h2>Adiciones</h2>
+                <div class="dish">
+                  <img src="/resources/imagen/adiciones.avif" alt="Comida Corriente">
+                  <div>
+                      <p>Pure de papa</p>
+                      <p>papas fritas</p>
+                      <p>platacones</p>
+                      <p>arroz</p>
+                      <p>fruta</p>
+                      <p>Precio unidad: $10.000</p>
+                  </div>
+              </div>
+          </div>
+            <div id="menu-servicios" class="menu-section">
+                <h2>Servicios Adicionales</h2>
+                <div class="dish">
+                    <img src="/resources/imagen/banquete.jpg" alt="Evento">
+                    <div>
+                        <p><strong>Banquetes y Bufetes</strong></p>
+                        <p>Elementos incluidos: Cena, postre, decoración</p>
+                        <p>Precio según cantidad de personas</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside> 
+          <h1>Desarrolladora</h1>
+          <p>Angie Carolina </p>
+          <p>Chitiva Muñoz</p>
+        
+        </aside>
+    </div>
+    <footer>Contacto y redes sociales</footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
